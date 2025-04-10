@@ -7,13 +7,13 @@ This project lets users upload news articles and search them using semantic mean
 - Upload and store news articles
 - Generate embeddings using sentence-transformers
 - Store and search with FAISS or Chroma vector DB
-- Flask API for querying with semantic meaning
+- Django API for querying with semantic meaning
 - Optional: Response latency tracking & vector caching
 
 ## Requirements
 
 - Python 3.8+
-- Flask
+- Django
 - sentence-transformers
 - faiss-cpu or chromadb
 - numpy
